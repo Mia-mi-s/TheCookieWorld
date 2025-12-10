@@ -47,6 +47,14 @@ nav{
     margin-left: 15%;
     border-radius: 17px;
     margin-top: 10%;
+    color: white;
+}
+
+.cookie_fraise img{
+
+    filter: drop-shadow(5px 5px 20px #ffffff9b);
+    display: flex;
+    justify-content: center;
 }
 
 .cookie_fraise h2{
@@ -64,7 +72,13 @@ nav{
     margin-left: 40%;
     border-radius: 17px;
     margin-top: 10%;
+    color: white;
 } 
+
+.cookie_vanille img{
+
+    filter: drop-shadow(10px 10px 20px #ffffff9b);
+}
 
 .cookie_vanille h2{
 
@@ -81,6 +95,7 @@ nav{
     margin-left: 65%;
     border-radius: 17px;
     margin-top: 10%;
+    color: white;
 } 
 
 .cookie_chocolat h2{
@@ -89,7 +104,12 @@ nav{
     margin-top: -15%;
     color: white;
     
+}
 
+
+.cookie_chocolat img{
+
+    filter: drop-shadow(5px 5px 20px #ffffff9b);
 }
 
 .photos{
@@ -107,4 +127,10 @@ photo-gallery{
 .description{
     display: flex;
     flex-direction: row; 
+}
+
+.compo{
+
+    font-size: 13px;
+    margin-left: 5px;
 }
